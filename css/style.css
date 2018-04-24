@@ -1,0 +1,351 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 900;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    font-weight: border;
+}
+
+@media (max-width:768px) {
+    .navbar-fixed-top {
+        display: none;
+    }
+}
+
+.close-navbar {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+body {
+    background-color: #ddd;
+}
+
+timeline-content strong,
+timeline-content {
+    color: #32424A;
+}
+
+.wrapper {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+.top img {
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width:768px) {
+    .top img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* left-content */
+
+.left-content {
+    background-color: white;
+    padding: 0;
+}
+
+.me-photo {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.main-header ul {
+    padding: 0;
+}
+
+.main-header li {
+    list-style: none;
+    border: 3px solid black;
+    border-top: 1px;
+    border-left: none;
+    border-right: none;
+    padding: 5%;
+    font-size: 25px;
+}
+
+.main-header li:first-child {
+    border-top: 3px solid black;
+}
+
+.main-header li:hover {
+    background-color: #537791;
+}
+
+
+@media (max-width: 768px) {
+    .wrapper {
+        margin-top: 0;
+    }
+}
+
+
+.main-header .active {
+    background-color: #537791;
+}
+
+.main-header a {
+    color: black;
+}
+
+.Community {
+    padding-left: 13%;
+    padding-top: 5%;
+}
+
+.Community img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px 0 10px;
+    float: left;
+    display: block;
+}
+
+.date {
+    margin-top: 25%;
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    .Community {
+        margin: 0 auto;
+    }
+    .Community img {
+        height: 30%;
+        width: 25%;
+    }
+    .date {
+        font-size: 24px;
+    }
+}
+
+
+
+.line-id {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #7FA99B;
+    display: none;
+}
+
+.line-id img {
+    height: 150px;
+    width: 15 0px;
+}
+
+#weather {
+    margin-top: 30px;
+    background-color: #C1C0B9;
+    color: black;
+    padding-bottom: 3px;
+}
+
+.weather-title {
+    text-align: center;
+}
+
+.weather-title,
+.source {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* right-content -about*/
+
+.right-content {
+    background-color: white;
+    min-height: 2000px;
+    padding: 0;
+    margin-right: -3%;
+    margin-left: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    float: right;
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    .left-content {
+        margin-bottom: 5%;
+    }
+
+    .right-content {
+
+        margin: 0 1px 0 8px;
+    }
+}
+
+@media (max-width: 320px) {
+    .left-content {
+        margin: 0;
+        margin-bottom: 5%;
+    }
+
+    .right-content {
+        margin: 0;
+
+    }
+}
+
+.main-title {
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.block-content {
+    font-size: 20px;
+}
+
+.progress {
+    margin-bottom: 40px;
+}
+
+.progress-bar-yellow {
+    background-color: orangered
+}
+
+.jq-right-2 {
+    display: none;
+}
+
+.Introduction {
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+
+.Introduction p {
+    font-size: 24px;
+}
+
+.skills li {
+    font-size: 24px;
+    line-height: 48px;
+}
+
+@media (max-width: 320px) {
+    .Introduction p {
+        font-size: 16px;
+    }
+
+    .skills li {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .main-title {
+        margin: 10px 0 10px 0;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}
+
+.text-center span {
+    font-size: 12px;
+}
+
+.works-text {
+    list-style: none;
+    font-size: 16px;
+}
+
+.works-img:hover {
+    transform: scale(1.1, 1.1);
+    transition: all .5s ease;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+/* right-content -portfolio*/
+
+.wrap {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.cart li {
+    margin: 0 4% 1em -1%;
+    float: left;
+    list-style: none;
+}
+
+.cart li img {
+    width: 230px;
+    height: 250px;
+}
+
+.cart .banners {
+    width: 355px;
+    height: 240px;
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    .cart li img {
+        width: 280px;
+        height: 300px;
+    }
+
+    .cart .banners {
+        width: 280px;
+        height: 240px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cart .banners {
+        width: 230px;
+        height: 240px;
+    }
+}
+
+.location {
+    border-bottom: 1px solid black;
+    margin-bottom: 13px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.location span {
+    font-size: 14px;
+}
+
+.lb-details span {
+    color: black;
+}
+
+.lb-data .lb-number {
+    color: purple;
+}
+
+.lightboxOverlay {
+    background-color: orange;
+}
